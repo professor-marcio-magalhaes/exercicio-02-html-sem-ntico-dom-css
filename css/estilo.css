@@ -1,0 +1,83 @@
+body{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+
+header,
+footer {
+    background-color: rgb(73, 131, 131);
+}
+
+main{
+    padding: 2% 2% 0 2%;
+}
+
+footer{
+     position: absolute;
+     bottom: 0px;
+     left: 0px;
+     width: 98%;
+     padding-left:2%;
+}
+
+.avatar{
+    background-color: rgb(36, 36, 36);
+    padding: 10px 0 10px 5px;
+    display: block;
+}
+
+.titulo-cabecalho{
+    color: rgb(255, 255, 255);
+    padding: 10px 0 1px 5px;
+}
+
+nav ul {
+    background-color: rgb(57, 69, 69);
+    overflow: hidden;
+    height: 30px;
+    border-radius: 15px;
+    padding: 10px 0px 0px 10px;
+}
+
+nav li{
+    background-color: rgb(153, 169, 164);
+    list-style-type: none;
+    width: 10%;
+    min-width: 100px;
+    border-radius: 5px;
+    float: left;
+    text-align: center;
+    margin: 0px 0px 0px 5px;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: block;
+}
+
+nav li a:hover{
+    color: rgb(56, 50, 43);
+    background-color: aliceblue;
+    border-radius: 5px 0px 5px 0px;
+}
+
+
+
+footer ul {
+    background-color: rgb(219, 255, 255);
+}
+
+table,
+th,
+td {
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+table{
+    margin: 0 auto;
+}
